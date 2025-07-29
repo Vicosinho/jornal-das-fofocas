@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jornal das Fofocas - Colégio Stella Maris - 2025</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #e3f2fd;
+      color: #0d47a1;
+    }
+
+    header {
+      background-color: #1976d2;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .logo {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    .slogan {
+      font-style: italic;
+      font-size: 1.2em;
+    }
+
+    nav {
+      background-color: #1565c0;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.9em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .noticia-principal,
+    .noticia-pequena,
+    .piada-do-dia,
+    .jogos-educacionais {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+
+    .noticia-principal img,
+    .noticia-pequena img {
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #0d47a1;
+    }
+
+    .piada-do-dia {
+      border-left: 6px solid #1565c0;
+      background-color: #e1f5fe;
+    }
+
+    .piada-do-dia h2 {
+      margin-top: 0;
+      color: #0277bd;
+    }
+
+    .jogos-educacionais ul {
+      padding-left: 20px;
+    }
+
+    .jogos-educacionais li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+
+    .redes-sociais {
+      margin-top: 15px;
+    }
+
+    .redes-sociais a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.5em;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav li {
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Jornal das Fofocas</div>
+    <div class="slogan">Saiba sobre as notícias e fofocas do Colégio Stella Maris</div>
+  </header>
+
+  <div class="container">
+    <section class="noticia-principal">
+      <h1>Carros batem frequentimente em laguna. </h1>
+      <p>carros batendo em Laguna muito frequentemente principalmente no bairro do Portinho.</p>
+    </section>
+
+    <section class="piada-do-dia">
+      <h2>😂 Piadas do Dia</h2>
+      <p><strong>Por que o livro foi ao médico?</strong><br>Porque ele tinha muitas páginas viradas!</p>
+      <p><strong>O que o pato falou para o outro pato?</strong><br>Estamos empatados!</p>
+    </section>
+
+    <section class="jogos-educacionais">
+      <h2>🎮 Jogos Educacionais Recomendados</h2>
+      <ul>
+        <li><strong>SE Terra</strong> Teste seus conhecimentos de geografia! <a href="https://www.geoguessr.com/pt/quiz/seterra" target="_blank">https://www.geoguessr.com/pt/quiz/seterra</a></li>
+        <li><strong>Scratch:</strong> Aprenda programação brincando. <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a></li>
+        <li><strong>Stardew Valley:</strong> Um rpg de vida na fazenda de estrátegia e paciencia. <a href="https://www.stardewvalley.net/" target="_blank">stardewvalley.net</a></li>
+        <li><strong>Tux Kart:</strong> Uma corrida de kart muito divertida. <a href="https://supertuxkart.net/pt_BR/Main_Page" target="_blank">https://supertuxkart.net/pt_BR/Main_Page</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Jornal das Fofocas - Todos os direitos reservados</p>
+    <p>Participantes: Vicente, Lucca e Francisco.</p>
+    <p>Diagramação: Vicente Cisotto Bajay.</p>
+  </footer>
+</body>
+
+</html>
